@@ -1,9 +1,11 @@
+
 <p align="center">
-  <img src="./banner.svg" alt="hzuani · Team INK" width="100%">
+  <img src="./banner.svg" alt="HZUANI · 국어 교사의 바이브 코딩 노트" width="100%">
 </p>
 
 <p align="center">
-  <img src="./emblem.svg" alt="Team INK 엠블럼" width="72"><br>
+  <img src="./emblem.png" alt="KF-21 엠블럼" width="120">
+  <br>
   <sub>바이브 코딩으로 학교 업무 도구를 만드는 국어 교사</sub>
 </p>
 
@@ -30,5 +32,4 @@
 
 ### 📡 관제탑 · Contact
 
-<!-- 공개해도 괜찮은 연락처(메일 등)를 아래에 적어주세요 -->
 연락처 준비 중
