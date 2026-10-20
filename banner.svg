@@ -1,126 +1,358 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="hzuani 원고지 코드 배너">
-<style>.k{font-family:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",SFMono-Regular,Consolas,monospace;font-size:15px}</style>
-<defs><clipPath id="f"><rect width="1000" height="260" rx="16"/></clipPath>
-<g id="jet"><g fill="#F0B24A"><ellipse cx="-21" cy="-1.4" rx="5" ry="1.1"><animate attributeName="rx" values="4;6.5;4.5;6;4" dur="0.25s" repeatCount="indefinite"/></ellipse><ellipse cx="-21" cy="1.4" rx="5" ry="1.1"><animate attributeName="rx" values="6;4;6.5;4.5;6" dur="0.25s" repeatCount="indefinite"/></ellipse></g>
-<path fill="#2B331E" stroke="#EAF0D8" stroke-width="0.8" stroke-linejoin="round" d="M26 0 L15 -2.2 L9 -3 L-2 -14.5 L-8 -15 L-7 -4 L-12 -4 L-17 -10 L-20 -10 L-18 -3.2 L-18.5 -1 L-18.5 1 L-18 3.2 L-20 10 L-17 10 L-12 4 L-7 4 L-8 15 L-2 14.5 L9 3 L15 2.2 Z"/><ellipse cx="12" cy="0" rx="4.2" ry="1.3" fill="#97C459"/></g>
-<path id="pj" pathLength="1" d="M466 204 L760 204 C860 204 900 120 1080 -40"/></defs>
-<g clip-path="url(#f)"><rect width="1000" height="260" fill="#12160D"/>
-<g stroke="#232B19" stroke-width="1" fill="none">
-<line x1="32" y1="26" x2="968" y2="26"/>
-<line x1="32" y1="52" x2="968" y2="52"/>
-<line x1="32" y1="78" x2="968" y2="78"/>
-<line x1="32" y1="104" x2="968" y2="104"/>
-<line x1="32" y1="130" x2="968" y2="130"/>
-<line x1="32" y1="156" x2="968" y2="156"/>
-<line x1="32" y1="182" x2="968" y2="182"/>
-<line x1="32" y1="208" x2="968" y2="208"/>
-<line x1="32" y1="234" x2="968" y2="234"/>
-<line x1="32" y1="26" x2="32" y2="234"/>
-<line x1="58" y1="26" x2="58" y2="234"/>
-<line x1="84" y1="26" x2="84" y2="234"/>
-<line x1="110" y1="26" x2="110" y2="234"/>
-<line x1="136" y1="26" x2="136" y2="234"/>
-<line x1="162" y1="26" x2="162" y2="234"/>
-<line x1="188" y1="26" x2="188" y2="234"/>
-<line x1="214" y1="26" x2="214" y2="234"/>
-<line x1="240" y1="26" x2="240" y2="234"/>
-<line x1="266" y1="26" x2="266" y2="234"/>
-<line x1="292" y1="26" x2="292" y2="234"/>
-<line x1="318" y1="26" x2="318" y2="234"/>
-<line x1="344" y1="26" x2="344" y2="234"/>
-<line x1="370" y1="26" x2="370" y2="234"/>
-<line x1="396" y1="26" x2="396" y2="234"/>
-<line x1="422" y1="26" x2="422" y2="234"/>
-<line x1="448" y1="26" x2="448" y2="234"/>
-<line x1="474" y1="26" x2="474" y2="234"/>
-<line x1="500" y1="26" x2="500" y2="234"/>
-<line x1="526" y1="26" x2="526" y2="234"/>
-<line x1="552" y1="26" x2="552" y2="234"/>
-<line x1="578" y1="26" x2="578" y2="234"/>
-<line x1="604" y1="26" x2="604" y2="234"/>
-<line x1="630" y1="26" x2="630" y2="234"/>
-<line x1="656" y1="26" x2="656" y2="234"/>
-<line x1="682" y1="26" x2="682" y2="234"/>
-<line x1="708" y1="26" x2="708" y2="234"/>
-<line x1="734" y1="26" x2="734" y2="234"/>
-<line x1="760" y1="26" x2="760" y2="234"/>
-<line x1="786" y1="26" x2="786" y2="234"/>
-<line x1="812" y1="26" x2="812" y2="234"/>
-<line x1="838" y1="26" x2="838" y2="234"/>
-<line x1="864" y1="26" x2="864" y2="234"/>
-<line x1="890" y1="26" x2="890" y2="234"/>
-<line x1="916" y1="26" x2="916" y2="234"/>
-<line x1="942" y1="26" x2="942" y2="234"/>
-<line x1="968" y1="26" x2="968" y2="234"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">HZUANI · 국어 교사의 바이브 코딩 노트</title>
+  <desc id="banner-desc">짙은 올리브 원고지에 자기소개 코드가 입력되고, 검정·흰색·노란색 가상 블랙이글스 도색의 KF-21이 이륙하는 14초 반복 배너. TEAM INK.</desc>
+  <!-- Standalone SVG: no JavaScript, raster images, remote fonts, or other network resources. -->
+  <!-- Timeline: 0.72–4.68 s type; 5.80–9.00 s take off; 13.2–14 s reset. -->
+  <style>
+    .name { font-family: "Arial", "Helvetica Neue", sans-serif; font-size: 32px; font-weight: 700; letter-spacing: 3.2px; }
+    .subtitle { font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; font-size: 17px; font-weight: 400; }
+    .code { font-family: "SFMono-Regular", Consolas, "DejaVu Sans Mono", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", monospace; font-size: 19px; }
+    .signature { font-family: "Arial", sans-serif; font-size: 10px; letter-spacing: 3.4px; }
+    .still-scene { display: none; }
+    @media (prefers-reduced-motion: reduce) { .motion-scene { display: none; } .still-scene { display: inline; } }
+  </style>
+  <defs>
+    <clipPath id="banner-clip"><rect x="0.5" y="0.5" width="999" height="299" rx="18"/></clipPath>
+    <linearGradient id="background-wash" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0" stop-color="#20271C"/><stop offset="0.54" stop-color="#1B2118"/><stop offset="1" stop-color="#252D1F"/>
+    </linearGradient>
+    <radialGradient id="aircraft-wash" cx="79%" cy="52%" r="48%">
+      <stop offset="0" stop-color="#52603A" stop-opacity="0.17"/><stop offset="1" stop-color="#52603A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="manuscript-grid" x="48" y="118" width="26" height="27" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V27" fill="none" stroke="#576347" stroke-width="0.7"/>
+    </pattern>
+    <linearGradient id="grid-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="white" stop-opacity="0.29"/><stop offset="0.62" stop-color="white" stop-opacity="0.2"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="grid-mask"><rect x="48" y="118" width="570" height="140" fill="url(#grid-fade)"/></mask>
+    <path id="flight-route" d="M0 0 C135 0 226 -10 350 -220" pathLength="1"/>
+    <g id="kf21-jet" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Clean-planform KF-21 concept; forward is +x. Native paths, no image dependencies. -->
+  <!-- Horizontal stabilizers remain separate from the main wings. -->
+  <path d="M-34-14-49-34-66-35-60-16-49-11Z M-34 14-49 34-66 35-60 16-49 11Z" fill="#111813" stroke="#DFE3CE" stroke-width="0.9"/>
+  <path d="M-38-16-50-32-63-33-60-29-49-26Z M-38 16-50 32-63 33-60 29-49 26Z" fill="#E9BC4E"/>
+  <path d="M-49-25-59-19-63-32-59-32Z M-49 25-59 19-63 32-59 32Z" fill="#F3F0DF"/>
+  <!-- Swept, clipped trapezoidal main wings. -->
+  <path d="M30-10-11-51-29-52-30-22-17-13Z M30 10-11 51-29 52-30 22-17 13Z" fill="#111813" stroke="#DFE3CE" stroke-width="1"/>
+  <path d="M27-11-12-49-17-49 15-17Z M27 11-12 49-17 49 15 17Z" fill="#E9BC4E"/>
+  <path d="M9-14C-1-24-11-37-26-45L-27-37C-16-32-9-26-3-21L-11-35C-7-28-2-21 9-14Z M9 14C-1 24-11 37-26 45L-27 37C-16 32-9 26-3 21L-11 35C-7 28-2 21 9 14Z" fill="#F3F0DF"/>
+  <path d="M14-10C3-15-8-24-24-28L-28-22C-17-20-9-17-2-12L-15-24C-5-16 4-11 14-10Z M14 10C3 15-8 24-24 28L-28 22C-17 20-9 17-2 12L-15 24C-5 16 4 11 14 10Z" fill="#F3F0DF"/>
+  <!-- Slim, unarmed wingtip rails. -->
+  <path d="M-9-51-30-52 M-9 51-30 52" fill="none" stroke="#E9BC4E" stroke-width="1.8"/>
+  <!-- Blended forebody and twin-engine fuselage. -->
+  <path d="M85 0 64-3.3 46-6.3 33-10.8 23-15.5 4-16-24-14-49-14-57-10.7-58-3.4-50 0-58 3.4-57 10.7-49 14-24 14 4 16 23 15.5 33 10.8 46 6.3 64 3.3Z" fill="#111813" stroke="#DFE3CE" stroke-width="0.95"/>
+  <!-- White eagle-feather paint joins the spine to the inner wings. -->
+  <path d="M41 0 24-4.1 12-7.5-3-12.3-20-12.6-7-8.8-29-10.3-46-10-49-5.1-13-4.2 12-2.6Z M41 0 24 4.1 12 7.5-3 12.3-20 12.6-7 8.8-29 10.3-46 10-49 5.1-13 4.2 12 2.6Z" fill="#F3F0DF"/>
+  <path d="M28-11 22-14.2 9-14.6 16-11.2Z M28 11 22 14.2 9 14.6 16 11.2Z" fill="#E9BC4E"/>
+  <!-- Two outward-canted fins, visibly distinct from the wider stabilizers. -->
+  <path d="M-15-12-39-23-57-22-48-12Z M-15 12-39 23-57 22-48 12Z" fill="#19221B" stroke="#D9DEC9" stroke-width="0.8"/>
+  <path d="M-20-13-40-21.1-53-20.7-46-17.4Z M-20 13-40 21.1-53 20.7-46 17.4Z" fill="#E9BC4E"/>
+  <path d="M-41-17.2-53-20-48-13.2-40-13.2Z M-41 17.2-53 20-48 13.2-40 13.2Z" fill="#F3F0DF"/>
+  <!-- Paired exhausts, with enough separation to read at small banner scale. -->
+  <path d="M-47-11.9-61-11.2-64-8.1-61-4.5-47-4.1Z M-47 11.9-61 11.2-64 8.1-61 4.5-47 4.1Z" fill="#777D6E" stroke="#D4D9C5" stroke-width="0.7"/>
+  <path d="M-59-10.8-63-8.1-59-5.1Z M-59 10.8-63 8.1-59 5.1Z" fill="#10170F"/>
+  <path d="M-51-11.1-51-4.7 M-55-11-55-4.9 M-51 11.1-51 4.7 M-55 11-55 4.9" fill="none" stroke="#434E40" stroke-width="0.75"/>
+  <!-- Canopy, a narrow highlight, and a quiet golden collar. -->
+  <path d="M62 0C56-3.4 48-4.2 40-3.2L34 0 40 3.2C48 4.2 56 3.4 62 0Z" fill="#41524A" stroke="#E3E6D6" stroke-width="0.8"/>
+  <path d="M58-0.7C51-2.3 44-2.5 39-1.9L37-0.8C44-1.2 51-1.3 58-0.7Z" fill="#A9BCAF"/>
+  <path d="M47-3.45 47 3.45" fill="none" stroke="#1D2A22" stroke-width="0.8"/>
+  <path d="M64-3.3 62-4.1 M64 3.3 62 4.1" fill="none" stroke="#E9BC4E" stroke-width="1.2"/>
 </g>
-<rect x="32" y="26" width="936" height="208" fill="none" stroke="#C9B57E" stroke-width="1" opacity="0.5"/>
-<text x="45.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">/<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.03;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="71.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">/<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0363;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="123.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">국<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0488;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="149.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">어<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0551;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="201.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">교<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0676;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="227.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">사<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0739;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="253.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">의<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0801;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="305.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">바<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0927;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="331.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">이<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0989;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="357.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">브<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1052;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="409.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">코<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1177;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="435.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">딩<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.124;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="487.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">노<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1365;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="513.0" y="70.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">트<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1428;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="45.0" y="96.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">c<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.149;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="71.0" y="96.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">o<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1553;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="97.0" y="96.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">n<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1616;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="123.0" y="96.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">s<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1678;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="149.0" y="96.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">t<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1741;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="201.0" y="96.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">m<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1866;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="227.0" y="96.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">e<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1929;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="279.0" y="96.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">=<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2054;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="331.0" y="96.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">{<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.218;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="97.0" y="122.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">j<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2367;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="123.0" y="122.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">o<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.243;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="149.0" y="122.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">b<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2493;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="175.0" y="122.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">:<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2555;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="227.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">&quot;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2681;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="253.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">국<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2743;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="279.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">어<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2806;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="331.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">교<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2931;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="357.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">사<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2994;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="383.0" y="122.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">&quot;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3057;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="409.0" y="122.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">,<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3119;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="97.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">h<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3307;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="123.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">o<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.337;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="149.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">b<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3433;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="175.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">b<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3495;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="201.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">y<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3558;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="227.0" y="148.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">:<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.362;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="279.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">&quot;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3746;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="305.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">바<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3808;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="331.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">이<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3871;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="357.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">브<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3934;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="409.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">코<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4059;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="435.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">딩<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4122;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="461.0" y="148.0" fill="#97C459" text-anchor="middle" class="k" opacity="0">&quot;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4184;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="45.0" y="174.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">}<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4247;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="71.0" y="174.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.431;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="45.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">m<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4372;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="71.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">e<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4435;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="97.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4498;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="123.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">d<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.456;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="149.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">e<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4623;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="175.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">p<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4686;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="201.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">l<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4748;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="227.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">o<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4811;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="253.0" y="200.0" fill="#C9B57E" text-anchor="middle" class="k" opacity="0">y<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4873;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="279.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">(<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4936;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="305.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">)<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4999;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="331.0" y="200.0" fill="#EAF0D8" text-anchor="middle" class="k" opacity="0">;<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5061;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="383.0" y="200.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">/<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5187;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="409.0" y="200.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">/<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5249;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="461.0" y="200.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">이<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5375;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<text x="487.0" y="200.0" fill="#7F8C5C" text-anchor="middle" class="k" opacity="0">륙<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5437;0.96" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
-<rect width="2" height="18" fill="#C9B57E"><animate attributeName="x" values="35;61;87;113;139;165;191;217;243;269;295;321;347;373;399;425;451;477;503;35;61;87;113;139;165;191;217;243;269;295;321;35;61;87;113;139;165;191;217;243;269;295;321;347;373;399;35;61;87;113;139;165;191;217;243;269;295;321;347;373;399;425;451;35;61;35;61;87;113;139;165;191;217;243;269;295;321;347;373;399;425;451;477" keyTimes="0.03;0.0363;0.0425;0.0488;0.0551;0.0613;0.0676;0.0739;0.0801;0.0864;0.0927;0.0989;0.1052;0.1114;0.1177;0.124;0.1302;0.1365;0.1428;0.149;0.1553;0.1616;0.1678;0.1741;0.1804;0.1866;0.1929;0.1992;0.2054;0.2117;0.218;0.2242;0.2305;0.2367;0.243;0.2493;0.2555;0.2618;0.2681;0.2743;0.2806;0.2869;0.2931;0.2994;0.3057;0.3119;0.3182;0.3245;0.3307;0.337;0.3433;0.3495;0.3558;0.362;0.3683;0.3746;0.3808;0.3871;0.3934;0.3996;0.4059;0.4122;0.4184;0.4247;0.431;0.4372;0.4435;0.4498;0.456;0.4623;0.4686;0.4748;0.4811;0.4873;0.4936;0.4999;0.5061;0.5124;0.5187;0.5249;0.5312;0.5375;0.5437" calcMode="discrete" dur="12s" repeatCount="indefinite"/><animate attributeName="y" values="56;56;56;56;56;56;56;56;56;56;56;56;56;56;56;56;56;56;56;82;82;82;82;82;82;82;82;82;82;82;82;108;108;108;108;108;108;108;108;108;108;108;108;108;108;108;134;134;134;134;134;134;134;134;134;134;134;134;134;134;134;134;134;160;160;186;186;186;186;186;186;186;186;186;186;186;186;186;186;186;186;186;186" keyTimes="0.03;0.0363;0.0425;0.0488;0.0551;0.0613;0.0676;0.0739;0.0801;0.0864;0.0927;0.0989;0.1052;0.1114;0.1177;0.124;0.1302;0.1365;0.1428;0.149;0.1553;0.1616;0.1678;0.1741;0.1804;0.1866;0.1929;0.1992;0.2054;0.2117;0.218;0.2242;0.2305;0.2367;0.243;0.2493;0.2555;0.2618;0.2681;0.2743;0.2806;0.2869;0.2931;0.2994;0.3057;0.3119;0.3182;0.3245;0.3307;0.337;0.3433;0.3495;0.3558;0.362;0.3683;0.3746;0.3808;0.3871;0.3934;0.3996;0.4059;0.4122;0.4184;0.4247;0.431;0.4372;0.4435;0.4498;0.456;0.4623;0.4686;0.4748;0.4811;0.4873;0.4936;0.4999;0.5061;0.5124;0.5187;0.5249;0.5312;0.5375;0.5437" calcMode="discrete" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
-<use href="#pj" fill="none" stroke="#97C459" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.5800000000000001;0.8;1" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.85;0.96" dur="12s" repeatCount="indefinite"/></use>
-<use href="#jet" transform="scale(1.25)" opacity="0"><animateMotion dur="12s" repeatCount="indefinite" rotate="auto" keyPoints="0;0;1;1" keyTimes="0;0.5800000000000001;0.8;1" calcMode="linear"><mpath href="#pj"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5800000000000001;0.8;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></use>
-<text x="960" y="226" text-anchor="end" fill="#C9B57E" font-size="11" letter-spacing="2" font-family="SFMono-Regular,Consolas,monospace" opacity="0.8">HZUANI · TEAM INK</text>
-</g></svg>
+
+  </defs>
+  <g clip-path="url(#banner-clip)">
+    <rect width="1000" height="300" fill="url(#background-wash)"/>
+    <rect width="1000" height="300" fill="url(#aircraft-wash)"/>
+    <rect x="48" y="118" width="570" height="140" fill="url(#manuscript-grid)" mask="url(#grid-mask)"/>
+    <path d="M48 108H523" stroke="#828965" stroke-opacity="0.25" stroke-width="1"/>
+    <path d="M48 108H77" stroke="#E9BC4E" stroke-width="2" stroke-linecap="round"/>
+    <text x="48" y="61" class="name" fill="#EEE9DA">HZUANI</text>
+    <text x="49" y="91" class="subtitle" fill="#B9AF8B">국어 교사의 바이브 코딩 노트</text>
+    <g class="motion-scene">
+      <g class="code" aria-label="국어 교사, 취미는 바이브 코딩. me.deploy(); 이륙">
+<text x="54" y="141" fill="#E9BC4E" opacity="1">c
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05143;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="65.44" y="141" fill="#E9BC4E" opacity="1">o
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05508;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="76.88" y="141" fill="#E9BC4E" opacity="1">n
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05874;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="88.32" y="141" fill="#E9BC4E" opacity="1">s
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06239;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="99.76" y="141" fill="#E9BC4E" opacity="1">t
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06605;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="122.64" y="141" fill="#EEE9DA" opacity="1">m
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.07336;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="134.08" y="141" fill="#EEE9DA" opacity="1">e
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.07701;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="156.96" y="141" fill="#EEE9DA" opacity="1">=
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.08432;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="179.84" y="141" fill="#EEE9DA" opacity="1">{
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.09163;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="76.88" y="168" fill="#B9AF8B" opacity="1">j
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.11575;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="88.32" y="168" fill="#B9AF8B" opacity="1">o
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.1194;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="99.76" y="168" fill="#B9AF8B" opacity="1">b
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.12306;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="111.2" y="168" fill="#EEE9DA" opacity="1">:
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.12671;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="134.08" y="168" fill="#CDD8B6" opacity="1">&quot;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.13402;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="145.52" y="168" fill="#CDD8B6" opacity="1">국
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.13767;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="164.52" y="168" fill="#CDD8B6" opacity="1">어
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.14133;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="194.96" y="168" fill="#CDD8B6" opacity="1">교
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.14864;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="213.96" y="168" fill="#CDD8B6" opacity="1">사
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.15229;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="232.96" y="168" fill="#CDD8B6" opacity="1">&quot;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.15595;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="244.4" y="168" fill="#EEE9DA" opacity="1">,
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.1596;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="76.88" y="195" fill="#B9AF8B" opacity="1">h
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.18372;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="88.32" y="195" fill="#B9AF8B" opacity="1">o
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.18738;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="99.76" y="195" fill="#B9AF8B" opacity="1">b
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.19103;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="111.2" y="195" fill="#B9AF8B" opacity="1">b
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.19468;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="122.64" y="195" fill="#B9AF8B" opacity="1">y
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.19834;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="134.08" y="195" fill="#EEE9DA" opacity="1">:
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.20199;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="156.96" y="195" fill="#CDD8B6" opacity="1">&quot;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.2093;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="168.4" y="195" fill="#CDD8B6" opacity="1">바
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.21296;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="187.4" y="195" fill="#CDD8B6" opacity="1">이
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.21661;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="206.4" y="195" fill="#CDD8B6" opacity="1">브
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.22027;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="236.84" y="195" fill="#CDD8B6" opacity="1">코
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.22757;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="255.84" y="195" fill="#CDD8B6" opacity="1">딩
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.23123;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="274.84" y="195" fill="#CDD8B6" opacity="1">&quot;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.23488;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="54" y="222" fill="#EEE9DA" opacity="1">}
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.25169;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="65.44" y="222" fill="#EEE9DA" opacity="1">;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.25535;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="54" y="249" fill="#EEE9DA" opacity="1">m
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.27216;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="65.44" y="249" fill="#EEE9DA" opacity="1">e
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.27581;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="76.88" y="249" fill="#EEE9DA" opacity="1">.
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.27947;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="88.32" y="249" fill="#E9BC4E" opacity="1">d
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.28312;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="99.76" y="249" fill="#E9BC4E" opacity="1">e
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.28678;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="111.2" y="249" fill="#E9BC4E" opacity="1">p
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.29043;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="122.64" y="249" fill="#E9BC4E" opacity="1">l
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.29409;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="134.08" y="249" fill="#E9BC4E" opacity="1">o
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.29774;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="145.52" y="249" fill="#E9BC4E" opacity="1">y
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.3014;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="156.96" y="249" fill="#EEE9DA" opacity="1">(
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.30505;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="168.4" y="249" fill="#EEE9DA" opacity="1">)
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.3087;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="179.84" y="249" fill="#EEE9DA" opacity="1">;
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.31236;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="202.72" y="249" fill="#929E7E" opacity="1">/
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.31967;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="214.16" y="249" fill="#929E7E" opacity="1">/
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.32332;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="237.04" y="249" fill="#929E7E" opacity="1">이
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.33063;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+<text x="256.04" y="249" fill="#929E7E" opacity="1">륙
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.33429;0.92;0.94;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+</text>
+</g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05143;0.33929;0.39643;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/><rect x="54" y="125" width="2" height="20" rx="1" fill="#E9BC4E"><animate attributeName="x" values="54;65.94;77.38;88.82;100.26;111.7;123.14;134.58;146.02;157.46;168.9;180.34;191.78;65.94;77.38;88.82;100.26;111.7;123.14;134.58;146.02;165.02;184.02;195.46;214.46;233.46;244.9;256.34;65.94;77.38;88.82;100.26;111.7;123.14;134.58;146.02;157.46;168.9;187.9;206.9;225.9;237.34;256.34;275.34;286.78;65.94;77.38;65.94;77.38;88.82;100.26;111.7;123.14;134.58;146.02;157.46;168.9;180.34;191.78;203.22;214.66;226.1;237.54;256.54;275.54;275.54" keyTimes="0;0.05143;0.05508;0.05874;0.06239;0.06605;0.0697;0.07336;0.07701;0.08066;0.08432;0.08797;0.09163;0.10844;0.11209;0.11575;0.1194;0.12306;0.12671;0.13037;0.13402;0.13767;0.14133;0.14498;0.14864;0.15229;0.15595;0.1596;0.17641;0.18007;0.18372;0.18738;0.19103;0.19468;0.19834;0.20199;0.20565;0.2093;0.21296;0.21661;0.22027;0.22392;0.22757;0.23123;0.23488;0.25169;0.25535;0.27216;0.27581;0.27947;0.28312;0.28678;0.29043;0.29409;0.29774;0.3014;0.30505;0.3087;0.31236;0.31601;0.31967;0.32332;0.32698;0.33063;0.33429;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/><animate attributeName="y" values="125;125;125;125;125;125;125;125;125;125;125;125;125;152;152;152;152;152;152;152;152;152;152;152;152;152;152;152;179;179;179;179;179;179;179;179;179;179;179;179;179;179;179;179;179;206;206;233;233;233;233;233;233;233;233;233;233;233;233;233;233;233;233;233;233;233" keyTimes="0;0.05143;0.05508;0.05874;0.06239;0.06605;0.0697;0.07336;0.07701;0.08066;0.08432;0.08797;0.09163;0.10844;0.11209;0.11575;0.1194;0.12306;0.12671;0.13037;0.13402;0.13767;0.14133;0.14498;0.14864;0.15229;0.15595;0.1596;0.17641;0.18007;0.18372;0.18738;0.19103;0.19468;0.19834;0.20199;0.20565;0.2093;0.21296;0.21661;0.22027;0.22392;0.22757;0.23123;0.23488;0.25169;0.25535;0.27216;0.27581;0.27947;0.28312;0.28678;0.29043;0.29409;0.29774;0.3014;0.30505;0.3087;0.31236;0.31601;0.31967;0.32332;0.32698;0.33063;0.33429;1" calcMode="discrete" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="0.8s" repeatCount="indefinite"/></rect></g>
+      <g transform="translate(784 182) rotate(-20)">
+<use href="#flight-route" transform="translate(0 -9)" fill="none" stroke="#D9D2BC" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1" opacity="0">
+<animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0;0.41429;0.64286;0.91429;0.94286;1" calcMode="linear" dur="14s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0;0.7;0.7;0;0" keyTimes="0;0.41429;0.42857;0.64286;0.82857;1" calcMode="linear" dur="14s" repeatCount="indefinite"/>
+</use>
+<use href="#flight-route" transform="translate(0 9)" fill="none" stroke="#E9BC4E" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1" opacity="0">
+<animate attributeName="stroke-dashoffset" values="1;1;0;0;1;1" keyTimes="0;0.41429;0.64286;0.91429;0.94286;1" calcMode="linear" dur="14s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0;0.7;0.7;0;0" keyTimes="0;0.41429;0.42857;0.64286;0.82857;1" calcMode="linear" dur="14s" repeatCount="indefinite"/>
+</use>
+<g id="aircraft-motion" opacity="1">
+<animateMotion dur="14s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;0;1;1;0;0" keyTimes="0;0.41429;0.64286;0.91429;0.94286;1"><mpath href="#flight-route"/></animateMotion>
+<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.63;0.66;0.95;0.98;1" calcMode="linear" dur="14s" repeatCount="indefinite"/>
+<use href="#kf21-jet" transform="scale(1.2)"/>
+</g></g>
+    </g>
+    <g class="still-scene" aria-hidden="true">
+      <g class="code" aria-label="국어 교사, 취미는 바이브 코딩. me.deploy(); 이륙">
+<text x="54" y="141" fill="#E9BC4E" opacity="1">c
+</text>
+<text x="65.44" y="141" fill="#E9BC4E" opacity="1">o
+</text>
+<text x="76.88" y="141" fill="#E9BC4E" opacity="1">n
+</text>
+<text x="88.32" y="141" fill="#E9BC4E" opacity="1">s
+</text>
+<text x="99.76" y="141" fill="#E9BC4E" opacity="1">t
+</text>
+<text x="122.64" y="141" fill="#EEE9DA" opacity="1">m
+</text>
+<text x="134.08" y="141" fill="#EEE9DA" opacity="1">e
+</text>
+<text x="156.96" y="141" fill="#EEE9DA" opacity="1">=
+</text>
+<text x="179.84" y="141" fill="#EEE9DA" opacity="1">{
+</text>
+<text x="76.88" y="168" fill="#B9AF8B" opacity="1">j
+</text>
+<text x="88.32" y="168" fill="#B9AF8B" opacity="1">o
+</text>
+<text x="99.76" y="168" fill="#B9AF8B" opacity="1">b
+</text>
+<text x="111.2" y="168" fill="#EEE9DA" opacity="1">:
+</text>
+<text x="134.08" y="168" fill="#CDD8B6" opacity="1">&quot;
+</text>
+<text x="145.52" y="168" fill="#CDD8B6" opacity="1">국
+</text>
+<text x="164.52" y="168" fill="#CDD8B6" opacity="1">어
+</text>
+<text x="194.96" y="168" fill="#CDD8B6" opacity="1">교
+</text>
+<text x="213.96" y="168" fill="#CDD8B6" opacity="1">사
+</text>
+<text x="232.96" y="168" fill="#CDD8B6" opacity="1">&quot;
+</text>
+<text x="244.4" y="168" fill="#EEE9DA" opacity="1">,
+</text>
+<text x="76.88" y="195" fill="#B9AF8B" opacity="1">h
+</text>
+<text x="88.32" y="195" fill="#B9AF8B" opacity="1">o
+</text>
+<text x="99.76" y="195" fill="#B9AF8B" opacity="1">b
+</text>
+<text x="111.2" y="195" fill="#B9AF8B" opacity="1">b
+</text>
+<text x="122.64" y="195" fill="#B9AF8B" opacity="1">y
+</text>
+<text x="134.08" y="195" fill="#EEE9DA" opacity="1">:
+</text>
+<text x="156.96" y="195" fill="#CDD8B6" opacity="1">&quot;
+</text>
+<text x="168.4" y="195" fill="#CDD8B6" opacity="1">바
+</text>
+<text x="187.4" y="195" fill="#CDD8B6" opacity="1">이
+</text>
+<text x="206.4" y="195" fill="#CDD8B6" opacity="1">브
+</text>
+<text x="236.84" y="195" fill="#CDD8B6" opacity="1">코
+</text>
+<text x="255.84" y="195" fill="#CDD8B6" opacity="1">딩
+</text>
+<text x="274.84" y="195" fill="#CDD8B6" opacity="1">&quot;
+</text>
+<text x="54" y="222" fill="#EEE9DA" opacity="1">}
+</text>
+<text x="65.44" y="222" fill="#EEE9DA" opacity="1">;
+</text>
+<text x="54" y="249" fill="#EEE9DA" opacity="1">m
+</text>
+<text x="65.44" y="249" fill="#EEE9DA" opacity="1">e
+</text>
+<text x="76.88" y="249" fill="#EEE9DA" opacity="1">.
+</text>
+<text x="88.32" y="249" fill="#E9BC4E" opacity="1">d
+</text>
+<text x="99.76" y="249" fill="#E9BC4E" opacity="1">e
+</text>
+<text x="111.2" y="249" fill="#E9BC4E" opacity="1">p
+</text>
+<text x="122.64" y="249" fill="#E9BC4E" opacity="1">l
+</text>
+<text x="134.08" y="249" fill="#E9BC4E" opacity="1">o
+</text>
+<text x="145.52" y="249" fill="#E9BC4E" opacity="1">y
+</text>
+<text x="156.96" y="249" fill="#EEE9DA" opacity="1">(
+</text>
+<text x="168.4" y="249" fill="#EEE9DA" opacity="1">)
+</text>
+<text x="179.84" y="249" fill="#EEE9DA" opacity="1">;
+</text>
+<text x="202.72" y="249" fill="#929E7E" opacity="1">/
+</text>
+<text x="214.16" y="249" fill="#929E7E" opacity="1">/
+</text>
+<text x="237.04" y="249" fill="#929E7E" opacity="1">이
+</text>
+<text x="256.04" y="249" fill="#929E7E" opacity="1">륙
+</text>
+</g>
+      <g transform="translate(784 182) rotate(-20)">
+<g>
+<use href="#kf21-jet" transform="scale(1.2)"/>
+</g></g>
+    </g>
+    <path d="M841 272H859" stroke="#E9BC4E" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="951" y="275" text-anchor="end" class="signature" fill="#B9AF8B">TEAM INK</text>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#626B48" stroke-opacity="0.42"/>
+</svg>
