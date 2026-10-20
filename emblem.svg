@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Team INK 엠블럼">
+  <style>
+    .ring{fill:#EEF0E2;stroke:#3B4A24}.nib{fill:#3B4A24}.slit{stroke:#EEF0E2}.smoke{stroke:#A8955A}.txt{fill:#3B4A24}
+    @media (prefers-color-scheme: dark){
+      .ring{fill:#1F2616;stroke:#A9B97A}.nib{fill:#EAF0D8}.slit{stroke:#1F2616}.smoke{stroke:#C9B57E}.txt{fill:#EAF0D8}
+    }
+    text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+  </style>
+  <circle class="ring" cx="60" cy="60" r="56" stroke-width="3"/>
+  <!-- 잉크 스모크 -->
+  <path class="smoke" d="M60 84 C60 76 55 74 55 68" fill="none" stroke-width="3" stroke-linecap="round"/>
+  <!-- 만년필 펜촉 = 위로 솟는 제트기 -->
+  <g transform="translate(12 2) scale(0.8)"><path class="nib" d="M60 18 L70 46 L92 62 L92 68 L70 60 L66 72 L74 78 L74 82 L60 78 L46 82 L46 78 L54 72 L50 60 L28 68 L28 62 L50 46 Z"/>
+  <line class="slit" x1="60" y1="30" x2="60" y2="58" stroke-width="2" stroke-linecap="round"/>
+  <circle class="ring" cx="60" cy="58" r="3" stroke-width="0"/></g>
+  <text class="txt" x="60" y="99" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2">TEAM INK</text>
+</svg>

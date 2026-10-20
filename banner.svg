@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Team INK 곡예비행 배너">
+  <style>
+    .sky{fill:#EEF0E2}.title{fill:#2F3A1F}.sub{fill:#5C6B3A}.jet{fill:#3B4A24}.wing{fill:#7A8B4E}
+    .smokeA{stroke:#A8955A}.smokeB{stroke:#639922}.runway{stroke:#B9C29A}
+    @media (prefers-color-scheme: dark){
+      .sky{fill:#1F2616}.title{fill:#EAF0D8}.sub{fill:#B5C28A}.jet{fill:#EAF0D8}.wing{fill:#A9B97A}
+      .smokeA{stroke:#C9B57E}.smokeB{stroke:#97C459}.runway{stroke:#4A5730}
+    }
+    text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+  </style>
+  <defs>
+    <!-- 오리지널 소형 제트기 (오른쪽을 향함) -->
+    <g id="jet">
+      <path class="jet" d="M-14 0 L10 -3 L18 0 L10 3 Z"/>
+      <path class="wing" d="M-4 -1 L2 -11 L6 -11 L4 -1 Z"/>
+      <path class="wing" d="M-4 1 L2 11 L6 11 L4 1 Z"/>
+      <path class="wing" d="M-13 -1 L-10 -6 L-8 -6 L-9 -1 Z"/>
+    </g>
+    <!-- 하트 기동 경로: 아래에서 상승 → 양쪽으로 갈라져 하트 → 중앙에서 만남 -->
+    <path id="pR" d="M800 280 L800 225 C880 165 905 60 845 55 C818 53 800 75 800 100"/>
+    <path id="pL" d="M800 280 L800 225 C720 165 695 60 755 55 C782 53 800 75 800 100"/>
+    <path id="pF" d="M-80 205 L1080 205"/>
+  </defs>
+
+  <rect class="sky" width="1000" height="260" rx="16"/>
+  <line class="runway" x1="40" y1="232" x2="620" y2="232" stroke-width="1" stroke-dasharray="18 12"/>
+
+  <text class="title" x="56" y="98" font-size="40" font-weight="700">hzuani</text>
+  <text class="sub" x="58" y="134" font-size="18">학교 업무 도구를 만드는 국어 교사</text>
+  <text class="sub" x="58" y="164" font-size="14" opacity="0.8">Team INK · 하늘에 잉크로 글씨를 쓰듯</text>
+
+  <!-- 스모크: 경로 길이를 1로 정규화해서 그려지는 효과 -->
+  <g fill="none" stroke-width="5" stroke-linecap="round">
+    <use href="#pR" class="smokeA" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;0.85;0.85;0" keyTimes="0;0.5;0.85;1" dur="8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#pL" class="smokeB" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;0.85;0.85;0" keyTimes="0;0.5;0.85;1" dur="8s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- 하트를 그리는 2기 -->
+  <use href="#jet">
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#pR"/></animateMotion>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.48;0.52;1" dur="8s" repeatCount="indefinite"/>
+  </use>
+  <use href="#jet">
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#pL"/></animateMotion>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.48;0.52;1" dur="8s" repeatCount="indefinite"/>
+  </use>
+
+  <!-- 활주로 위를 지나가는 3기 편대 -->
+  <g>
+    <animateMotion dur="8s" repeatCount="indefinite" keyPoints="0;0;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#pF"/></animateMotion>
+    <use href="#jet" transform="translate(0 0)"/>
+    <use href="#jet" transform="translate(-34 -16)"/>
+    <use href="#jet" transform="translate(-34 16)"/>
+  </g>
+</svg>
