@@ -1,11 +1,9 @@
-
 <p align="center">
-  <img src="./banner.svg" alt="HZUANI · 국어 교사의 바이브 코딩 노트" width="100%">
+  <img src="./banner.svg" alt="hzuani · Team INK" width="100%">
 </p>
 
 <p align="center">
-  <img src="./emblem.png" alt="KF-21 엠블럼" width="120">
-  <br>
+  <img src="./emblem.svg" alt="Team INK 엠블럼" width="72"><br>
   <sub>바이브 코딩으로 학교 업무 도구를 만드는 국어 교사</sub>
 </p>
 
@@ -15,7 +13,7 @@
 
 | 기체 (프로젝트) | 임무 | 상태 |
 |---|---|---|
-| **자리 배치 프로그램** | 나이스 엑셀 연동, 무작위 섞기, 좌석 고정·교환, 인쇄 | ![비행 중](https://img.shields.io/badge/비행_중-1D9E75?style=flat-square) |
+| **[자리 배치 프로그램](https://github.com/hzuani/random-seatchange)** · [써보기](https://hzuani.github.io/random-seatchange/) | 나이스 엑셀 연동, 무작위 섞기, 좌석 고정·교환, 인쇄 | ![비행 중](https://img.shields.io/badge/비행_중-1D9E75?style=flat-square) |
 | **야자 관리 시스템** | 야간자율학습 출석 체크와 통계 | ![기밀](https://img.shields.io/badge/기밀_·_학교_내부용-5F5E5A?style=flat-square) |
 | **출결서류 생성기** | 나이스 출결 엑셀로 결석·인정·기타 출결 신고서(hwpx) 생성 | ![시험 비행](https://img.shields.io/badge/시험_비행-BA7517?style=flat-square) |
 
@@ -32,4 +30,5 @@
 
 ### 📡 관제탑 · Contact
 
+<!-- 공개해도 괜찮은 연락처(메일 등)를 아래에 적어주세요 -->
 연락처 준비 중
