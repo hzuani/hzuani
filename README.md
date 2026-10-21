@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./emblem.svg" alt="Team INK 엠블럼" width="72"><br>
+  <img src="./emblem.png" alt="Team INK 엠블럼" width="72"><br>
   <sub>바이브 코딩으로 학교 업무 도구를 만드는 국어 교사</sub>
 </p>
 
@@ -14,6 +14,7 @@
 | 기체 (프로젝트) | 임무 | 상태 |
 |---|---|---|
 | **[자리 배치 프로그램](https://github.com/hzuani/random-seatchange)** · [써보기](https://hzuani.github.io/random-seatchange/) | 나이스 엑셀 연동, 무작위 섞기, 좌석 고정·교환, 인쇄 | ![비행 중](https://img.shields.io/badge/비행_중-1D9E75?style=flat-square) |
+| **[시험 문항 배점 도우미](https://github.com/hzuani/exam-scorer)** · [써보기](https://hzuani.github.io/exam-scorer/) | 난이도 비율대로 0.1점 단위 배점 계산, 문항 번호 배정, 공동 출제 공유, 인쇄 | ![비행 중](https://img.shields.io/badge/비행_중-1D9E75?style=flat-square) |
 | **야자 관리 시스템** | 야간자율학습 출석 체크와 통계 | ![기밀](https://img.shields.io/badge/기밀_·_학교_내부용-5F5E5A?style=flat-square) |
 | **출결서류 생성기** | 나이스 출결 엑셀로 결석·인정·기타 출결 신고서(hwpx) 생성 | ![시험 비행](https://img.shields.io/badge/시험_비행-BA7517?style=flat-square) |
 
